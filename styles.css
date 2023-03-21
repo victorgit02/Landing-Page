@@ -21,8 +21,8 @@ body {
   background-color: var(--morado);
   scroll-behavior: #313039;
 }
-button {
-  margin-top: 20px;
+#cv {
+  margin-top: 60px;
   border-radius: 30px;
   width: 200px;
   height: 60px;
