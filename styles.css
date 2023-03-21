@@ -21,6 +21,17 @@ body {
   background-color: var(--morado);
   scroll-behavior: #313039;
 }
+button {
+  margin-top: 20px;
+  border-radius: 30px;
+  width: 200px;
+  height: 60px;
+  background-color: var(--morado);
+  color: var(--silver);
+  font-size: 22px;
+  font-style: italic;
+  text-decoration: underline;
+}
 ul {
   height: 110px;
   padding: 10px 10px 10px;
@@ -57,17 +68,7 @@ ul li:hover {
 .active {
   transform: translateY(-600px);
 }
-button {
-  margin-top: 20px;
-  border-radius: 30px;
-  width: 200px;
-  height: 60px;
-  background-color: var(--morado);
-  color: var(--silver);
-  font-size: 22px;
-  font-style: italic;
-  text-decoration: underline;
-}
+
 .in-icon {
   justify-content: center;
   width: 48px;
