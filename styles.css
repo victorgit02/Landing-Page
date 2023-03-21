@@ -18,35 +18,33 @@ body {
 }
 #footer {
   height: 350px;
-  background-color:var(--morado);
-  scroll-behavior:#313039;
+  background-color: var(--morado);
+  scroll-behavior: #313039;
 }
 ul {
-    height: 110px;
+  height: 110px;
   padding: 10px 10px 10px;
   width: auto;
   background-color: var(--morado);
   box-shadow: 2px 0px 7px 2px var(--morado);
   border-radius: 10px;
   cursor: pointer;
-  transition: all .5s ease;
- 
-  
+  transition: all 0.5s ease;
 }
-#profile-pic{
+#profile-pic {
   margin-top: 40px;
   box-shadow: 4px 2px 10px 10px var(--morado);
   position: relative;
   width: 400px;
 }
 ul li {
-    font-size: var(--md);
-    color: silver;
+  font-size: var(--md);
+  color: silver;
 }
-ul li:hover{
+ul li:hover {
   background-color: var(--silver);
   border-radius: 10px;
- box-shadow: 2px 0 7px 2px var(--silver);
+  box-shadow: 2px 0 7px 2px var(--silver);
 }
 
 #Menu {
@@ -57,7 +55,7 @@ ul li:hover{
 }
 
 .active {
-    transform: translateY(-600px);
+  transform: translateY(-600px);
 }
 button {
   margin-top: 20px;
@@ -65,10 +63,10 @@ button {
   width: 200px;
   height: 60px;
   background-color: var(--morado);
-color: var(--silver);
-font-size: 22px;
-font-style: italic;
-text-decoration: underline;
+  color: var(--silver);
+  font-size: 22px;
+  font-style: italic;
+  text-decoration: underline;
 }
 .in-icon {
   justify-content: center;
@@ -79,7 +77,7 @@ text-decoration: underline;
   margin-left: 5px;
   cursor: pointer;
 }
-.gitHub-icon{
+.gitHub-icon {
   justify-content: center;
   width: 48px;
   height: 48px;
@@ -101,11 +99,10 @@ text-decoration: underline;
 .inactive {
   display: none;
 }
-@media (max-width: 640px){
+@media (max-width: 640px) {
   .inactive {
     display: block;
     width: 30px;
     height: 30px;
-    
   }
 }
