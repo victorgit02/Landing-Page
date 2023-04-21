@@ -33,7 +33,7 @@ body {
   text-decoration: underline;
 }
 ul {
-  height: 110px;
+  height: 130px;
   padding: 10px 10px 10px;
   width: auto;
   background-color: var(--morado);
@@ -59,7 +59,7 @@ ul li:hover {
 }
 
 #Menu {
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 22px;
   font-style: italic;
   text-decoration: underline;
